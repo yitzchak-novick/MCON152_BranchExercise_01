@@ -8,6 +8,8 @@ public class GoalTracker {
 	private ArrayList<HistoryItem> historyItems = new ArrayList<HistoryItem>();
 	
 	public GoalTracker(int goal) {
+		if (goal < 0)
+			throw new IllegalArgumentException("Negative goal inputted");
 		this.goal = goal;
 	}
 	
