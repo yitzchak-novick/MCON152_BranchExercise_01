@@ -24,7 +24,8 @@ public class Program {
 				accomplishedAmount = keyboardInput.nextInt();
 			}
 			
-			goalTracker.addHistoryItem(new HistoryItem(accomplishedAmount, "NA", new Date()));
+			goalTracker.addHistoryItem(new HistoryItem(accomplishedAmount, "NA", new Date(), "Shana"));
+			
 
 			System.out.println("You still need " + goalTracker.getGoalDeficit());
 
