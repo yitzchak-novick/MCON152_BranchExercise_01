@@ -30,7 +30,7 @@ public class GoalTracker {
 	
 	@Override
 	public String toString() {
-		return "Goal: " + goal + ", currTotal: " + currTotal;
+		return "Your goal is " + goal + ", currTotal: " + currTotal;
 	}
 	
 }
