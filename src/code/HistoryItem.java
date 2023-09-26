@@ -13,6 +13,6 @@ public class HistoryItem {
 	
 	@Override
 	public String toString() {
-		return "History item, amt: " + amount;
+		return "History item, amount is: " + amount;
 	}
 }
