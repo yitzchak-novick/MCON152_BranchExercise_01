@@ -21,6 +21,10 @@ public class GoalTracker {
 		return goal;
 	}
 	
+	public int getGoalDeficit() {
+		return goal - currTotal;
+	}
+	
 	public int getCurrTotal() {
 		return currTotal;
 	}
